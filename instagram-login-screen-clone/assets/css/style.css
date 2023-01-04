@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    margin-top: 75px;
+    margin-left: 25%;
+}
+
+.instagram-logo {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 10px;
+    padding: 0 50px 50px 50px;
+    border: 1px solid lightskyblue;
+    max-width: 300px;
+    height: 350px;
+}
+
+.instagram-profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.instagram-profile a {
+    margin-top: 15px;
+    text-decoration: none;
+}
+
+.instagram-avatar img {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+.not-account {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 350px;
+    text-align: center;
+    border: 1px solid lightskyblue;
+    
+}
+
+.instagram-app {
+    display: block;
+    text-align: center;
+}
+
+.app-download img {
+    height: 60px;
+    width: 150px;
+}
+
+@media screen and (max-width: 950px) {
+    .instagram-mobile {
+        display: none;
+    }    
+}
